@@ -15,7 +15,7 @@ namespace EFCoreRelationships.Controllers
         }
 
         /// <summary>
-        /// Controller to get all the Characters with the given userId
+        /// Method to get all the Characters with the given userId
         /// </summary>
         /// <param name="userId"></param>
         /// <returns>List of Characters</returns>
@@ -32,7 +32,7 @@ namespace EFCoreRelationships.Controllers
         }
 
         /// <summary>
-        /// Controller that creates a new Character with a Dto of Character provided
+        /// Method that creates a new Character with a Dto of Character provided
         /// </summary>
         /// <param name="request"></param>
         /// <returns>List of Characters</returns>
@@ -57,7 +57,7 @@ namespace EFCoreRelationships.Controllers
         }
 
         /// <summary>
-        /// Controller that creates a new Weapon with a Dto of Weapons provided
+        /// Method that creates a new Weapon with a Dto of Weapons provided
         /// </summary>
         /// <param name="request"></param>
         /// <returns>Character object</returns>
@@ -82,7 +82,7 @@ namespace EFCoreRelationships.Controllers
         }
 
         /// <summary>
-        /// Controller that adds a new Skill to a Character with a Dto provided
+        /// Method that adds a new Skill to a Character with a Dto provided
         /// </summary>
         /// <param name="request"></param>
         /// <returns>Character object</returns>
